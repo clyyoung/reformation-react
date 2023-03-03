@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo:wght@500&display=swap");
+
+body{
+  font-family: Archivo, sans-serif;
+}
+header{
+  background-color: #E9E8E1;
+}
+#logo{
+  width:175px;
+}
+hr{
+  height:3px;
+  color: black;
+  background-color: black;
+  background: black;
+  margin: 0px 0px 0px 0px;
+  border-color: black;
+}
+.picture {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#flirt {
+  font-size: xxx-large;
+  letter-spacing: 3px;
+  padding-left: 30px;
+}
+
+#dropdown-basic {
+  background-color: transparent;
+  color: black;
+  border-color: transparent;
+}
+#dropdown-basic::after {
+  display: none !important;
+}
+#nav::after{
+  display: none !important;
+}
+#nav{
+  color: black;
+}
+#centerText {
+  position: absolute;
+  right: 50%;
+  left: 40%;
+  bottom: 15%;
+  width: 100%;
+  color: black;
+}
